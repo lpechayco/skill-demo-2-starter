@@ -11,4 +11,4 @@ test: LinkedListTest.class
 	java -cp $(CLASSPATH) org.junit.runner.JUnitCore LinkedListTest
 
 debug-test: LinkedListTest.class
-	java -classpath $(CLASSPATH) org.junit.runner.JUnitCore LinkedListTest
+	jdb -classpath $(CLASSPATH) org.junit.runner.JUnitCore LinkedListTest
