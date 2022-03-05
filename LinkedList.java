@@ -40,8 +40,8 @@ public class LinkedList {
         while(n.next != null) {
             n = n.next;
             n.next = new Node(value, null);
+            return;
         }
-        return;
     }
     /**
      * @return the value of the first element in the list
